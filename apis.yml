@@ -1,0 +1,32 @@
+aid: stream
+name: Stream
+description: "Czech internet television, films, series and online videos for free"
+url: https://api.stream.cz/graphiql
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Video"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Video
+  - Public APIs
+apis:
+  - name: Stream
+    description: "Czech internet television, films, series and online videos for free"
+    humanURL: https://api.stream.cz/graphiql
+    baseURL: https://api.stream.cz/graphiql
+    tags:
+      - Video
+    properties:
+      - type: Documentation
+        url: https://api.stream.cz/graphiql
+common:
+  - type: Website
+    url: https://api.stream.cz/graphiql
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
