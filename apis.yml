@@ -39,7 +39,6 @@ apis:
   - name: Stream
     description: "Czech internet television, films, series and online videos for free"
     humanURL: https://api.stream.cz/graphiql
-    baseURL: https://api.stream.cz/graphiql
     tags:
       - Video
     properties:
